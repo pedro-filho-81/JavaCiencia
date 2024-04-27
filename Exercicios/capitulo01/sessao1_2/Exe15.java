@@ -26,7 +26,13 @@ public class Exe15 {
       System.out.println("Terceiro inteiro: ");
       int n3 = input.nextInt();
 
+      // calculate
+      boolean lado1 = (n1 >= (n2 + n3));
+      boolean lado2 = (n2 >= (n1 + n3));
+      boolean lado3 = (n3 >= (n1 + n2));
+
       // display
-      System.out.println("n1 = " + n1);
+      System.out
+            .println("Existe um lado maior ou igual a soma dos outros dois? " + ((lado1 || lado2 || lado3) == true));
    }
 }
