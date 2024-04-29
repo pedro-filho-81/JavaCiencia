@@ -33,6 +33,6 @@ public class Exe15 {
 
       // display
       System.out
-            .println("Existe um lado maior ou igual a soma dos outros dois? " + ((lado1 || lado2 || lado3) == true));
+            .println("Existe um lado maior ou igual a soma dos outros dois? " + ((lado1 || lado2 || lado3)));
    }
 }
